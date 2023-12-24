@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  h1 {
+    text-decoration: underline;
+    color: blue;
+    font-size: 50px;
+  }
+  .counter {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    background: pink;
+  }
+  
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+  }
